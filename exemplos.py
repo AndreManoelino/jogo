@@ -61,6 +61,6 @@ while True:
         pontos = pontos + 1
         barulho_colisao.play()
 
-    tela.blit(texto_formatado, (450, 40))
+    tela.blit(texto_formatado, (420, 40))
     tela.blit(snake, (x, y))
     pygame.display.update()
